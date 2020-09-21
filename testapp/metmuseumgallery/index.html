@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/metmuseum.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <title>MetMuseumGallery</title>
+</head>
+
+<body class="body-content">
+    <header class="header-content">
+        <a target="_blank" href="https://www.metmuseum.org/">
+            <img class="logo-img" src="images/art-gallery.jpg" />
+        </a>
+    </header>
+    <div class="main-body">
+        <h1> Welcome to MetMuseum Gallery </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.Fuga repellat
+            reiciendis distinctio quam vitae!
+            Commodi,
+            voluptatem ? Voluptates culpa aliquam in exercitationem, totam architecto labore fugiat ?
+            Expedita dolorem.</p>
+    </div>
+
+    <div>
+        <input type='button' class="button generate-btn" onclick='generateGalleryTable()'
+            value='Click here to view gallery' />
+        <p> Please select upto 5 images to make your own gallery:</p>
+        <form name=galleryForm>
+            <table id="art_table" class="gallery-table"></table>
+            <input id="save_button" type="button" class=" button save-btn" value="Save"
+                onclick="saveSelectedImages()" />
+        </form>
+    </div>
+    <footer class="footer-content"></footer>
+    <script type="text/javascript" src="js/metmuseum.js"></script>
+</body>
+
+</html>

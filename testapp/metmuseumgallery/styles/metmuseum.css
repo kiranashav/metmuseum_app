@@ -1,0 +1,136 @@
+html {
+    min-width: 940px;
+    background-image: linear-gradient(130deg, #FFFFFF, #84bd00);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+html,
+body {
+    overflow: auto;
+}
+
+.body-content {
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo-img {
+    height: 70px;
+    width: 70px;
+}
+
+.main-body {
+    padding: 20px;
+}
+
+.gallery-table {
+    border: 2px solid #A8A8A8;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+.gallery-table th,
+.gallery-table td {
+    padding: 14px 8px;
+    display: table-cell;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gallery-table th:first-child,
+.gallery-table td:first-child {
+    padding-left: 16px;
+}
+
+.gallery-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.gallery-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.view-icon {
+    color: #F58426;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.check-box {
+    height: 26px;
+    width: 25px;
+    margin: -1px;
+    cursor: pointer;
+}
+
+.generate-btn {
+    cursor: progress;
+    width: 426px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.generate-btn:hover {
+    cursor: progress;
+}
+
+.button {
+    background-color: #F58426;
+    color: white;
+    border: 2px solid #F58426;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 3px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #f5b826;
+    color: black;
+}
+
+.save-btn {
+    cursor: pointer;
+    width: 121px;
+    height: 47px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 12px;
+}
+
+.save-btn:hover {
+    cursor: pointer;
+}
+
+.gallery-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
